@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Jimmy Cleveland</title>
+    <!-- Bootstrap -->
+    <link href="PortfolioStyle.css" rel="stylesheet" media="screen">
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet'
+        type='text/css' />
+</head>
+<body>
+    <div id=".wrapper">
+        <div class="topbar suede">
+            <div class="container" id="home">
+                <div class="row">
+                    <div class="span5">
+                        <a href="index.html"><img src="images/logo.png" /></a>
+                    </div>
+                    <div class="span6 offset1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="padding-top: 40px;">
+        <div class="row">
+            <div class="span10 offset2">
+                <h1>Top-Down Innovations</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- Screenshots -->
+
+        <div class="imgBox">
+            <img src="images/TDI Home.png" />
+        </div>
+
+        <div class="textBox">
+            <h3>Top-Down Innovations specializes in home and business renovation with an emphasis on energy conservation.</h3>
+        </div>
+        <div class="imgBox">
+            <img src="images/TDI Contact.png" />
+        </div>
+
+        <div class="textBox">
+            <h3>My clients requested "something outdoorsy" as the theme for their site, and this is what I came up with.</h3>
+        </div>
+
+        <div class="imgBox">
+            <img src="images/TDI SandS.png" />
+        </div>
+
+        <div class="textBox">
+            <h3>TDI wanted the page for their Safe & Secure service to have a different mood.  We ended up agreeing on this look.</h3>
+        </div>
+
+
+        <div class="textBox" style="text-align: center;">
+            <a href="http://topdowninnovations.com">
+                <h3>topdowninnovations.com</h3>
+            </a>
+        </div>
+    </div>
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            $('ul.inline a').bind('click', function (event) {
+                var $anchor = $(this);
+
+                $('html, body').stop().animate({
+                    scrollTop: $($anchor.attr('href')).offset().top
+                }, 1000);
+
+                event.preventDefault();
+            });
+        });
+    </script>
+</body>
+</html>

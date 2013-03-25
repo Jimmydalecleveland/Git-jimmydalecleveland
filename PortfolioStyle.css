@@ -1,0 +1,92 @@
+/*
+ 
+     JimmyDaleCleveland.com - CSS
+       
+ */
+
+/* Bootstrap's CSS */
+@import url(css/bootstrap.min.css);
+
+/* My additional CSS */
+
+/*@color-tan: #E6DAA8;*/
+
+html, body
+{
+    background-image: url('images/bg_tile.jpg');
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+
+h1
+{
+    font: 54px/1.2 'Montserrat', Verdana, sans-serif;
+}
+
+h2
+{
+    font: 36px/1.2 'Montserrat', Verdana, sans-serif;
+}
+
+h3
+{
+    font: 26px/1.4 'Montserrat', Verdana, sans-serif;
+}
+
+#wrapper
+{
+    width: 100%;
+}
+
+.suede
+{
+    background-image: url(images/suede_tile.png);
+    height: 187px;
+    padding: 0;
+    color: #E6DAA8;
+    background-color: transparent;
+}
+
+.imgBox
+{
+    width: 700px;
+    height: 400px;
+    box-shadow: inset 2px 2px 2px 0px #121212;
+    background-color: #E6DAA8;
+    background-image: url('images/bg_tile_inset.jpg');
+    padding: 5px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.textBox
+{
+    width: 710px; 
+    margin: 0 auto;
+    margin-bottom: 100px;
+    background-color: rgba(240, 240, 240, .3);
+    border-radius: 3px;
+}
+.testIMG
+{
+    width: 700px;
+    height: 400px;
+    background-color: lightgray;
+}
+
+.center
+{
+    float: none;
+    margin: 0 auto;
+    width: 900px;
+}
+
+.screenshot
+{
+    padding-bottom: 100px;
+    padding-top: 20px;
+}

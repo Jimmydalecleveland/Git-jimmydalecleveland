@@ -1,0 +1,329 @@
+/*
+ 
+     JimmyDaleCleveland.com - CSS
+       
+ */
+
+/* Bootstrap's CSS */
+@import url(css/bootstrap.min.css);
+
+/* My additional CSS */
+
+/*@color-tan: #E6DAA8;*/
+
+html, body
+{
+    background-image: url(images/bg_tile.jpg);
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: #391F0B;
+}
+
+.navTop
+{
+    padding-top: 130px;
+}
+
+    .navTop a
+    {
+        color: #E6DAA8;
+        list-style-type: none;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+.navBar2
+{
+    background-color: #3b2b1f;
+    box-shadow: inset 1px 1px 3px #121212;
+    border-radius: 8px;
+    height: 20px;
+    width: 420px;
+    padding: 10px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+    .navBar2 a
+    {
+        color: #E6DAA8;
+        list-style-type: none;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+.navBar3
+{
+    background-image: url(images/bg_tile_inset.jpg);
+    box-shadow: inset 1px 1px 3px #121212;
+    border-radius: 8px;
+    height: 20px;
+    width: 420px;
+    padding: 10px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+    .navBar3 a
+    {
+        color: #391F0B;
+        list-style-type: none;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+.navBar4
+{
+    background-image: url(images/bg_tile.jpg);
+    box-shadow: 1px 1px 1px #121212;
+    border-radius: 8px;
+    height: 20px;
+    width: 420px;
+    padding: 10px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+    .navBar4 a
+    {
+        color: #391F0B;
+        list-style-type: none;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+
+h1
+{
+    font: 54px/1.2 'Montserrat', Verdana, sans-serif;
+}
+
+h2
+{
+    font: 45px/1.2 'Montserrat', Verdana, sans-serif;
+}
+
+h3
+{
+    font: 28px/1.4 'Montserrat', Verdana, sans-serif;
+}
+
+#wrapper
+{
+    width: 100%;
+}
+
+.suede
+{
+    background-image: url(images/suede_tile.png);
+    height: 187px;
+    padding: 0;
+    color: #E6DAA8;
+    background-color: transparent;
+}
+
+.portfolio
+{
+    background-color: #513d2f;
+    height: 500px;
+    box-shadow: 5px 5px 5px 0px #333333;
+    border-top: solid #333333 1px;
+}
+
+.imgBox
+{
+    width: 250px;
+    height: 250px;
+    box-shadow: inset 2px 2px 2px 0px #121212;
+    background-color: #3b2b1f;
+    padding: 5px;
+}
+/*
+    Contact section    
+*/
+.contact
+{
+    background-color: #885f42;
+    background-image: url(images/bg_tile_inset.jpg);
+    margin-top: 140px;
+    padding-left: 50px;
+    box-shadow: inset 1px 1px 3px #121212;
+}
+    .contact h1
+    {
+        color:#E6DAA8;
+    }
+
+
+/* Contact end */
+
+
+/* 
+    Footer section
+*/
+.prefooter
+{
+    height: 60px;
+    background-color: #121212;
+    width: 100%;
+    border-bottom: solid #333333 1px;
+}
+
+.footer
+{
+    bottom: 0;
+    height: 310px;
+    background-color: #232323;
+    border-top: solid #555555 2px;
+    color: #555;
+    text-align: center;
+}
+
+.contactInfo
+{
+    padding-top: 5px;
+    font-size: 17px;
+    line-height: 16px;
+    color: #E6DAA8;
+}
+
+.contactLabel
+{
+    color: #868686;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.contactIcons
+{
+    height: 90px;
+    width: 90px;
+}
+
+/* Footer End */
+
+
+.center
+{
+    float: none;
+    margin: 0 auto;
+    width: 900px;
+}
+
+
+/* 
+    Table Section
+*/
+#tableContainer
+{
+    position: relative;
+    left: 50%;
+    margin-left: -450px;
+    background-color: #F5F5DC;
+    width: 800px;
+    box-shadow: 5px 5px 3px #333333;
+    padding: 60px;
+}
+
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableHeader
+{
+    margin-bottom: 5px;
+    padding-bottom: 0;
+}
+
+    .tableHeader th
+    {
+        font: 60px/1.4 'Cabin', Verdana, sans-serif;
+        text-align: left;
+        width: 70%;
+    }
+
+    .tableHeader td
+    {
+        font: 18px/1.4 'Cabin', Verdana, sans-serif;
+        width: 30%;
+    }
+
+.tableBody
+{
+    margin-top: 10px;
+    padding-top: 0;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+    .tableBody .section
+    {
+        width: 25%;
+        font: 24px/1.4 'Cabin', Verdana, sans-serif;
+        font-style: italic;
+        vertical-align: top;
+    }
+
+    .tableBody .info
+    {
+        width: 75%;
+    }
+
+    .tableBody .header
+    {
+        font: 21px/1.4 'Cabin', Verdana, sans-serif;
+    }
+
+    .tableBody .date
+    {
+        text-align: right;
+    }
+
+.tableTechnical
+{
+    margin-top: 10px;
+    padding-top: 0;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+    .tableTechnical .section
+    {
+        width: 25%;
+        font: 24px/1.4 'Cabin', Verdana, sans-serif;
+        font-style: italic;
+        vertical-align: top;
+    }
+
+    .tableTechnical .item1
+    {
+        width: 25%;
+    }
+
+    .tableTechnical .item2
+    {
+        width: 25%;
+    }
+
+    .tableTechnical .item3
+    {
+        width: 25%;
+    }
+
+td
+{
+    font: 18px/1.4 'Cabin', Verdana, sans-serif;
+}
+
+    td h3
+    {
+        font: 24px/1.4 'Cabin', Verdana, sans-serif;
+    }
+
+.line
+{
+    border-top: solid #333333 1px;
+}
