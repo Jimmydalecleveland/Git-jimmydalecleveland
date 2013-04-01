@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Jimmy Cleveland</title>
+        <!-- Bootstrap -->
+        <link href="PortfolioStyle.css" rel="stylesheet" media="screen">
+        <link rel="shortcut icon" href="images/favicon.ico" />
+        <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id=".wrapper">
+            <div class="topbar suede">
+                <div class="container" id="home">
+                    <div class="row">
+                        <div class="span5">
+                            <a href="index.html"><img src="images/logo.png" /></a>
+                        </div>
+                        <div class="span6 offset1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="padding-top: 40px;">
+            <div class="row">
+                <div class="span10 offset2">
+                    <h1>Anything For A Friend</h1>
+                </div>
+            </div>
+            <div class="textBox" style="background-color:  transparent; margin-bottom: 0; width: 700px;">
+                <h4>Anything For A Friend is a community fundraising organization started by Becky Anderson. They help tragedy stricken families
+            raise money to help with the financial strain of medical bills amassed while trying to save a loved one's life.<br /><br />
+                This was a project for a capstone course that included the whole class (over 30 students), and we were very excited to be able to
+                    help such a great organization.
+                </h4>
+            </div>
+        </div>
+        <div class="container">
+            <!-- Screenshots -->
+            <div class="imgBox">
+                <img src="images/AFAF Events.png" />
+            </div>
+
+            <div class="textBox">
+                <p>This was an N-tier project using ASP.NET to build an event registration service that would allow users to sign up through AFAF's website.
+                This would allow them to take the profits which they would normally pay event hosting sites and give it all to the families in need.
+                </p>
+            </div>
+            <div class="imgBox">
+                <img src="images/AFAF 5k.png" />
+            </div>
+
+            <div class="textBox">
+                <p>The class was split into 3 tiers (Presentation, Business Logic, and Database) and I was placed in the Presentation tier as the lead designer.
+                I designed all the mockups for the site's layout and look while getting feedback from my team and Becky.  I also worked with the others on the html/css and validation.
+                </p>
+            </div>
+
+            <div class="imgBox">
+                <img src="images/AFAF Golf.png" />
+            </div>
+
+            <div class="textBox">
+                <p>The project was completed on the presentation side by the end of the course, and mostly completed by the other tiers.  We were able to give a presentation to Becky and
+               her team, and they were very thrilled about it.  More time was still needed to have the service ready for the next fundraiser, and the next semester students would be finishing
+                   our project and adding some of the extra features.
+                </p>
+            </div>
+
+            <div class="textBox" style="background-color:  transparent; margin-bottom: 0; width: 700px;">
+                <h4>You can view the Presentation files on Github using the link below:</h4>
+            </div>
+            <div class="textBox" style="text-align: center;">
+                <a href="https://github.com/Jimmydalecleveland/Git-AFAF.git">
+                    <h3>AFAF Presentation Tier on Github</h3>
+                </a>
+            </div>
+        </div>
+
+
+
+        <script src="js/bootstrap.min.js"></script>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+        <script>
+            $(document).ready(function () {
+            
+                $('ul.inline a').bind('click', function (event) {
+                    var $anchor = $(this);
+            
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1000);
+            
+                    event.preventDefault();
+                });
+            });
+        </script>
+    </body>
+</html>

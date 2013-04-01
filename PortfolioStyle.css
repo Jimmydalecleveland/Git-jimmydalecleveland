@@ -36,6 +36,14 @@ h3
 {
     font: 26px/1.4 'Montserrat', Verdana, sans-serif;
 }
+h4
+{
+    font:  20px/1.4 'Montserrat', Verdana, Sans-serif;
+}
+p
+{
+    font:  16px/1.4 'Montserrat', Verdana, Sans-serif;
+}
 
 #wrapper
 {
@@ -65,11 +73,13 @@ h3
 
 .textBox
 {
-    width: 710px; 
+    width: 670px; 
     margin: 0 auto;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
+    margin-top:  5px;
     background-color: rgba(240, 240, 240, .3);
     border-radius: 3px;
+    padding:  10px 20px;
 }
 .testIMG
 {
